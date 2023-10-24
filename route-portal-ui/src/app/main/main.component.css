@@ -1,0 +1,55 @@
+#searchText{
+  border-radius: 0.5rem;
+  border-color: #0BB8D6;
+  height: 2rem;
+  margin-bottom: 1rem;
+}
+
+.btn-primary{
+  background-color: #1C3FD9;
+  border: none;
+  border-radius: 0.7rem;
+  width: 5rem;
+  margin-left: 3px;
+}
+
+.btn-primary:hover{
+  background-color: #0BB8D6;
+}
+
+#difficultySelect{
+  background-color: #F2F2F2;
+  border-radius: 0.5rem;
+  border-color: #0BB8D6;
+  color: #1C3FD9;
+  font-size: large;
+  padding: 2px;
+}
+
+#slope{
+  background-color: #F2F2F2;
+  border-radius: 0.5rem;
+  border-color: #0BB8D6;
+  color: #1C3FD9;
+  font-size: large;
+  margin: auto;
+  height: 2rem;
+}
+
+#km{
+  background-color: #F2F2F2;
+  border-radius: 0.5rem;
+  border-color: #0BB8D6;
+  color: #1C3FD9;
+  font-size: large;
+  margin: auto;
+  height: 2rem;
+}
+
+.slopeDiv{
+  margin: auto;
+}
+
+.kmDiv{
+  margin: auto;
+}

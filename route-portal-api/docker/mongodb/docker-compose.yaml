@@ -1,0 +1,15 @@
+version: "3.5"
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: local_mongodb
+    ports:
+      - 27017:27017
+    environment:
+      - MONGO_INITDB_DATABASE= Getir
+      - MONGO_INITDB_ROOT_USERNAME=getir
+      - MONGO_INITDB_ROOT_PASSWORD=getir
+    volumes:
+    - ./mongo-volume:/data/db
+
+

@@ -1,0 +1,152 @@
+
+<!-- navbar   -->
+<app-navbar></app-navbar>
+<!-- navbar   -->
+
+
+<!-- carousel   -->
+
+<mdb-carousel class="mb-2" [controls]="true" [animation]="'fade'">
+  <mdb-carousel-item>
+    <img
+      src="../assets/aksaray üniversitesi/two.jpeg"
+      class="d-block w-100"
+      alt="..."
+    />
+  </mdb-carousel-item>
+  <mdb-carousel-item>
+    <img
+      src="../assets/aksaray üniversitesi/Adsız tasarım (1).png"
+      class="d-block w-100"
+      alt="..."
+    />
+  </mdb-carousel-item>
+  <mdb-carousel-item>
+    <img
+      src="../assets/aksaray üniversitesi/ucbisiklet.png"
+      class="d-block w-100"
+      alt="..."
+    />
+  </mdb-carousel-item>
+  <mdb-carousel-item>
+    <img
+      src="../assets/aksaray üniversitesi/dagbisiklet.png"
+      class="d-block w-100"
+      alt="..."
+    />
+  </mdb-carousel-item>
+  <mdb-carousel-item>
+    <img
+      src="../assets/aksaray üniversitesi/kampüs.jpeg"
+      class="d-block w-100"
+      alt="..."
+    />
+  </mdb-carousel-item>
+</mdb-carousel>
+
+<!-- carousel   -->
+
+
+<!-- search-place   -->
+
+<div class="m-3">
+  <div class="d-flex mb-3">
+    <h2  style="color:beige;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;margin-right: 1rem;">YÜRÜYÜŞ & BİSİKLET ROTALARI</h2>
+    <div class="d-none d-sm-block" style="height: 0.5rem; width: 69%;background-color: #e9e9e9;margin:auto; margin-right: 0;border-radius: 1rem;"></div>
+  </div>
+  <div>
+    <div class="card justify-content-center m-auto text-center col-lg-4 col-md-6" style="background-color: #e9e9e9;border-radius: 1rem;">
+      <div  class="card-body d-flex row  justify-content-center">
+          <div class=" col-sm-12 col-md-12 col-lg-6" >
+            <p style="font-weight: 500;font-size:1.5rem">Rota ismi:</p>
+          </div>
+          <div class="input-group d-flex col-sm-8 col-md-10 col-lg-6 justify-content-center">
+            <div  style="width: 60%;">
+                  <input style="color: black;background-color:#F2F2F2;" placeholder="Ara..." name= "search" [(ngModel)]= "searchText" type="search" id="searchText" class="form-control"/>
+            </div>
+          </div>
+          <!-- <a (click)="submitFilter()" href="#" class="btn btn-primary justify-content-center m-auto" style="width: 5rem;">Başla</a> -->
+      </div>
+      <hr style="width: 80%;margin: auto;">
+      <div style=" font-weight: 500;font-size:1.5rem" class="card-body d-flex text-center row">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+          <p>Zorluk seviyesi:</p>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-4" style="margin-left: 5%;margin-bottom: 0.5rem;">
+          <div >
+              <select style="width: 70%;height: 60%;color: black;align-items: center;" [(ngModel)]= "diffText" id="difficultySelect" class="form-select text-center" (change)="selectChanged($event)" >
+                <option value="Kolay">Kolay</option>
+                <option value="Orta">Orta</option>
+                <option value="Zor">Zor</option>
+              </select>
+          </div>
+        </div>
+      </div>
+      <hr style="width: 80%;margin: auto;">
+      <div class="card-body d-flex row  justify-content-center">
+        <div class=" col-sm-12 col-md-12 col-lg-6">
+          <p style="font-weight: 500;font-size:1.5rem">Yaş Aralığı:</p>
+        </div>
+        <div class="slopeDiv input-group d-flex col-sm-8 col-md-10 col-lg-6 justify-content-center">
+          <div style="width: 60%;">
+            <input [(ngModel)]= "ageText" class="form-control" id="slope" style="color: black;background-color:#F2F2F2;margin-bottom: 1.5rem;" type="search">
+          </div>
+        </div>
+      </div>
+      <div class="m-auto">
+        <button (click)="submitFilter()" type="button" class="btn btn-primary mb-3">
+          Go
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- search-place   -->
+
+
+
+<!-- map   -->
+
+<div>
+
+  <div class="col-sm-10 col-lg-8 m-auto" id="map" style="margin-bottom: 10px; height: 500px;border: solid 2px #e0dddd; border-radius: 1rem; padding: 0.5rem;" (resized)="onResized($event)">
+
+    <!-- <div style="
+    background: cornflowerblue;
+    margin-top: 10px;
+    margin-left: 15px ;
+    " > -->
+
+    <div style="position: absolute; display: block;z-index: 10;" id="popup" class="ol-popup">
+
+    </div>
+    <!-- <form class="example-form">
+
+      <mat-form-field class="example-full-width">
+
+      <input matInput  name= "search" [(ngModel)]= "searchText">
+      <button matSuffix mat-button (click)="submitFilter()" > <mat-icon >search</mat-icon></button>
+      </mat-form-field>
+
+
+    </form> -->
+
+
+  </div>
+
+</div>
+
+<!-- map   -->
+
+<router-outlet></router-outlet>
+
+
+<!-- footer   -->
+<app-footer></app-footer>
+<!-- footer   -->
+
+
+
+
+

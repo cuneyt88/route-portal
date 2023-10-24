@@ -1,0 +1,331 @@
+{
+	"info": {
+		"_postman_id": "d0bf7f26-3121-4dab-bb74-be6d98abeab8",
+		"name": "Postman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "authentication",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\"getir\",\r\n    \"password\":\"getir12345Ab\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/authenticate/token",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"authenticate",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addBook",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJnZXRpciIsImV4cCI6MTYzMTg3MjE3NCwiaWF0IjoxNjMxODY4NTc0fQ.slDcQ2U1Po6TopStPgb2hQKbumg8OBxlwT_p-N8TGqwGlXMJlroQ2QBSSsgGajbABaCXGiWFiod6_hWtxSBUPA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"bookName\":\"Nutuk\",\r\n    \"authorName\":\"Mustafa Kemal Ataturk\",\r\n    \"stock\":1881,\r\n    \"amount\":50\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/books/add",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"books",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateBook",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJnZXRpciIsImV4cCI6MTYzMTg3MzEyNCwiaWF0IjoxNjMxODY5NTI0fQ.CsiliDAAHVoVou3KLZuvbjdp7xuPFAHEOkxlYu7Vbx0X1_1x0oBuMoUzmtfzRDrszOiApOgvHGChKUxFYomtUQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"bookName\":\"Nutuk\",\r\n    \"stock\":1923\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/books/update",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"books",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addCustomer",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJnZXRpciIsImV4cCI6MTYzMTg3MzEyNCwiaWF0IjoxNjMxODY5NTI0fQ.CsiliDAAHVoVou3KLZuvbjdp7xuPFAHEOkxlYu7Vbx0X1_1x0oBuMoUzmtfzRDrszOiApOgvHGChKUxFYomtUQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstName\":\"Burak\",\r\n    \"lastName\":\"Kabasakal\",\r\n    \"email\":\"kabasakalburak@hotmail.com\",\r\n    \"address\":{\r\n            \"city\":\"Ankara\",\r\n            \"country\":\"Turkey\"\r\n            }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/customers/add",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"customers",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addOrder",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJnZXRpciIsImV4cCI6MTYzMTg3MzEyNCwiaWF0IjoxNjMxODY5NTI0fQ.CsiliDAAHVoVou3KLZuvbjdp7xuPFAHEOkxlYu7Vbx0X1_1x0oBuMoUzmtfzRDrszOiApOgvHGChKUxFYomtUQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"customerId\":\"614459d2778a29a03ff169f0\",\r\n    \"bookId\":\"614459943730370413341766\",\r\n    \"count\":10\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/orders/add",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"orders",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "orderList",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJnZXRpciIsImV4cCI6MTYzMTg3NjMxOCwiaWF0IjoxNjMxODcyNzE4fQ.xR-Dts5Y-9yW-VLgivN6kwbjAMsKKuFaNtDMdr_l8VGzAYieqfmxDeAnKSqJwyePC89B0Ys571Y_LNST6ZqZtg",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/orders/list?startDate=2021-09-15T03:20:44.54&endDate=2021-09-17T03:50:45.23",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"orders",
+						"list"
+					],
+					"query": [
+						{
+							"key": "startDate",
+							"value": "2021-09-15T03:20:44.54"
+						},
+						{
+							"key": "endDate",
+							"value": "2021-09-17T03:50:45.23"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "orderListCustomer",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJnZXRpciIsImV4cCI6MTYzMTg3NjMxOCwiaWF0IjoxNjMxODcyNzE4fQ.xR-Dts5Y-9yW-VLgivN6kwbjAMsKKuFaNtDMdr_l8VGzAYieqfmxDeAnKSqJwyePC89B0Ys571Y_LNST6ZqZtg",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/orders/list/614459d2778a29a03ff169f0?startDate=2021-09-15T03:20:44.54&endDate=2021-09-17T03:50:45.23",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"orders",
+						"list",
+						"614459d2778a29a03ff169f0"
+					],
+					"query": [
+						{
+							"key": "startDate",
+							"value": "2021-09-15T03:20:44.54"
+						},
+						{
+							"key": "endDate",
+							"value": "2021-09-17T03:50:45.23"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "orderFindCustomerOrders",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJnZXRpciIsImV4cCI6MTYzMTg3NjMxOCwiaWF0IjoxNjMxODcyNzE4fQ.xR-Dts5Y-9yW-VLgivN6kwbjAMsKKuFaNtDMdr_l8VGzAYieqfmxDeAnKSqJwyePC89B0Ys571Y_LNST6ZqZtg",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/orders/order/614459d2778a29a03ff169f0?pageNo=0&pageSize=3",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"orders",
+						"order",
+						"614459d2778a29a03ff169f0"
+					],
+					"query": [
+						{
+							"key": "pageNo",
+							"value": "0"
+						},
+						{
+							"key": "pageSize",
+							"value": "3"
+						}
+					]
+				},
+				"description": "find customer orders with pageable parameters"
+			},
+			"response": []
+		},
+		{
+			"name": "orderStatistics",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJnZXRpciIsImV4cCI6MTYzMTg3NjMxOCwiaWF0IjoxNjMxODcyNzE4fQ.xR-Dts5Y-9yW-VLgivN6kwbjAMsKKuFaNtDMdr_l8VGzAYieqfmxDeAnKSqJwyePC89B0Ys571Y_LNST6ZqZtg",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

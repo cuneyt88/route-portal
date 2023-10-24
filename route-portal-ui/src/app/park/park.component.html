@@ -1,0 +1,37 @@
+
+<!-- map   -->
+
+<div>
+
+  <div class="col-sm-10 col-lg-8 m-auto" id="map" style="margin-bottom: 10px; height: 500px;border: solid 2px #e0dddd; border-radius: 1rem; padding: 0.5rem;" (resized)="onResized($event)">
+
+    <!-- <div style="
+    background: cornflowerblue;
+    margin-top: 10px;
+    margin-left: 15px ;
+    " > -->
+
+    <div style="position: absolute; display: block;z-index: 10;" id="popup" class="ol-popup">
+
+    </div>
+    <!-- <form class="example-form">
+
+      <mat-form-field class="example-full-width">
+
+      <input matInput  name= "search" [(ngModel)]= "searchText">
+      <button matSuffix mat-button (click)="submitFilter()" > <mat-icon >search</mat-icon></button>
+      </mat-form-field>
+
+
+    </form> -->
+
+
+  </div>
+
+</div>
+
+<!-- map   -->
+
+
+
+<router-outlet></router-outlet>

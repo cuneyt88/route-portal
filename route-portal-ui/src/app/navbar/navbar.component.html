@@ -1,0 +1,104 @@
+
+  <!-- Navbar -->
+<nav style="background-color: #DEEFE7;" class="navbar navbar-expand-lg navbar-light" >
+  <!-- Container wrapper -->
+  <div class="container-fluid">
+    <!-- Navbar brand -->
+    <a class="navbar-brand d-none d-sm-none d-md-none d-lg-block" style="position: absolute; z-index: 10; margin-top: 5rem; margin-right: 2rem;" href="/" >
+      <img src="../../assets/aksaray üniversitesi/logo.png" alt="">
+    </a>
+
+    <div style="margin-right: 5rem;width: 10rem; margin-left: 2rem;">
+
+    </div>
+
+    <!-- Toggle button -->
+    <button
+      class="navbar-toggler"
+      style="border: white;"
+      type="button"
+      (click)="basicNavbar.toggle()"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Collapsible wrapper -->
+    <div
+      class="collapse navbar-collapse"
+      id="navbarSupportedContent"
+      mdbCollapse
+      #basicNavbar="mdbCollapse"
+    >
+      <!-- Left links -->
+      <ul class="navbar-nav mb-2 mb-lg-0 itemsAll justify-content-between" style="font-size: 1.3rem;gap: 0.8rem;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/">Anasayfa</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Rota
+            </a>
+            <!-- Dropdown Items -->
+            <ul class="dropdown-menu" aria-labelledby="rotaDropdown">
+              <li><a class="dropdown-item" (click)="onCategoryClick('Bisiklet')" href="#">Bisiklet</a></li>
+              <li><a class="dropdown-item" (click)="onCategoryClick('Yürüyüş')" href="#">Trekking-Hiking</a></li>
+              <li><a class="dropdown-item" href="#">Kamp</a></li>
+              <li><a class="dropdown-item" href="#">Tarihi-Kültürel Lokasyonlar</a></li>
+              <li><a class="dropdown-item" href="#">Kişiye Özel Rota</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Hizmet Alanları
+            </a>
+            <!-- Dropdown Items -->
+            <ul class="dropdown-menu" aria-labelledby="rotaDropdown">
+              <li><a class="dropdown-item" href="#">Tamirat</a></li>
+              <li><a class="dropdown-item" routerLink="/park">Park-Transfer</a></li>
+              <li><a class="dropdown-item" href="#">Kurutma</a></li>
+              <li><a class="dropdown-item" href="#">Çeşme(İçme Suyu)</a></li>
+              <li><a class="dropdown-item" href="#">Otobüs Durakları</a></li>
+              <li><a class="dropdown-item" href="#">Yeme-içme</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Güncel Aktivite</a>
+            <!-- Dropdown Items -->
+            <ul class="dropdown-menu" aria-labelledby="rotaDropdown">
+              <li><a class="dropdown-item" href="#">Festival</a></li>
+              <li><a class="dropdown-item" href="#">Yarışma</a></li>
+              <li><a class="dropdown-item" href="#">Etkinlik</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Rezervasyon
+            </a>
+            <!-- Dropdown Items -->
+            <ul class="dropdown-menu" aria-labelledby="rotaDropdown">
+              <li><a class="dropdown-item" href="#">Tur</a></li>
+              <li><a class="dropdown-item" href="#">Otel</a></li>
+              <li><a class="dropdown-item" href="#">Kamp</a></li>
+              <li><a class="dropdown-item" href="#">Karavan</a></li>
+              <li><a class="dropdown-item" href="#">Transfer</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Reklam</a>
+          </li>
+        </ul>
+
+
+      <!-- Left links -->
+    </div>
+    <!-- Collapsible wrapper -->
+  </div>
+  <!-- Container wrapper -->
+</nav>
+<!-- Navbar -->
+
+
