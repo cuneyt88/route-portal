@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Turizm_foto.kml</name>
+	<visibility>0</visibility>
+	<Schema name="C:/Users/ersin/Downloads/Turizm_foto.kml" id="temp">
+		<SimpleField type="string" name="OBJECTID_1"></SimpleField>
+		<SimpleField type="string" name="OID_"></SimpleField>
+		<SimpleField type="string" name="Name"></SimpleField>
+		<SimpleField type="string" name="tip"></SimpleField>
+		<SimpleField type="double" name="utm_x"></SimpleField>
+		<SimpleField type="double" name="utm_y"></SimpleField>
+	</Schema>
+	<StyleMap id="default">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#default0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="default0">
+	</Style>
+	<StyleMap id="failed">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="failed0">
+	</Style>
+	<Style id="failed1">
+	</Style>
+	<Style id="hl">
+		<IconStyle>
+			<scale>1.2</scale>
+		</IconStyle>
+	</Style>
+	<StyleMap id="mfailed">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.2</scale>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Placemark>
+		<name>Aksaray</name>
+		<visibility>0</visibility>
+		<description><![CDATA[<img style="max-width:500px;" src="../assets/turizmfotolar/Aksaray Merkez 72 02.jpg"><img style="max-width:500px;" src="../assets/turizmfotolar/Aksaray Merkez Bisiklet 72 01.jpg"><img style="max-width:500px;" src="../assets/turizmfotolar/Aksaray Merkez Valilik Meydanı Saat Kulesi 72 01.jpg">]]></description>
+		<styleUrl>#default</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#temp">
+				<SimpleData name="OBJECTID_1">1</SimpleData>
+				<SimpleData name="OID_">1</SimpleData>
+				<SimpleData name="Name">Aksaray Müzesi</SimpleData>
+				<SimpleData name="tip">Bakanlık Verisi</SimpleData>
+				<SimpleData name="utm_x">586828.5325</SimpleData>
+				<SimpleData name="utm_y">4246307.2315</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>33.99384199948073,38.36072869979409,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Tuzgolu</name>
+		<visibility>0</visibility>
+		<description><![CDATA[<img style="max-width:500px;" src="../assets/turizmfotolar/Tuz Gölü Filamingo 72 01.jpg"><img style="max-width:500px;" src="../assets/turizmfotolar/Tuz Gölü Filamingo 72 06.jpg">]]></description>
+		<styleUrl>#default</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#temp">
+				<SimpleData name="OBJECTID_1">36</SimpleData>
+				<SimpleData name="OID_">1</SimpleData>
+				<SimpleData name="Name">Tuz Gölü</SimpleData>
+				<SimpleData name="tip">Bakanlık Verisi</SimpleData>
+				<SimpleData name="utm_x">537468.0211</SimpleData>
+				<SimpleData name="utm_y">4273546.2057</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>33.43034179959612,38.60963130036934,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Saratlı Kırkgöz Yeraltı Şehri</name>
+		<visibility>0</visibility>
+		<description><![CDATA[<img style="max-width:500px;" src="../assets/turizmfotolar/Aksaray saratlı yer altı şehri 72 01.jpg"><img style="max-width:500px;" src="../assets/turizmfotolar/Aksaray Saratlı Yeraltı Şehri 72 01.jpg"><img style="max-width:500px;" src="../assets/turizmfotolar/Aksaray Saratlı Yeraltı şehri 72 02.jpg">]]></description>
+		<styleUrl>#failed</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#temp">
+				<SimpleData name="OBJECTID_1">39</SimpleData>
+				<SimpleData name="OID_">1</SimpleData>
+				<SimpleData name="Name">Saratlı Kırkgöz Yeraltı Şehri</SimpleData>
+				<SimpleData name="tip">Bakanlık Verisi</SimpleData>
+				<SimpleData name="utm_x">607730.3966</SimpleData>
+				<SimpleData name="utm_y">4255915.0996</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>34.23451079977547,38.44502569956744,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Ihlara Vadisi</name>
+		<visibility>0</visibility>
+		<description><![CDATA[<img style="max-width:500px;" src="../assets/turizmfotolar/Güzelyurt Ihlara Vadisi 72 01.jpg"><img style="max-width:500px;" src="../assets/turizmfotolar/Güzelyurt Ihlara Vadisi 72 02.jpg"><img style="max-width:500px;" src="../assets/turizmfotolar/Güzelyurt Ihlara Vadisi 72 03.jpg">]]></description>
+		<styleUrl>#mfailed</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#temp">
+				<SimpleData name="OBJECTID_1">48</SimpleData>
+				<SimpleData name="OID_">1</SimpleData>
+				<SimpleData name="Name">Ihlara Vadisi</SimpleData>
+				<SimpleData name="tip">Bakanlık Verisi</SimpleData>
+				<SimpleData name="utm_x">613985.0423</SimpleData>
+				<SimpleData name="utm_y">4234789.2223</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>34.30275269989113,38.25390409999861,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Manastırlar Vadisi</name>
+		<visibility>0</visibility>
+		<description><![CDATA[<img style="max-width:500px;" src="../assets/turizmfotolar/Güzelyurt Manastırlar Vadisi 72 01.jpg">]]></description>
+		<styleUrl>#mfailed</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#temp">
+				<SimpleData name="OBJECTID_1">73</SimpleData>
+				<SimpleData name="OID_">1</SimpleData>
+				<SimpleData name="Name">Manastırlar Vadisi</SimpleData>
+				<SimpleData name="tip">Arazi Verileri</SimpleData>
+				<SimpleData name="utm_x">612763.4508</SimpleData>
+				<SimpleData name="utm_y">4236301.4788</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>34.28903500017393,38.26768400009991,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Balcı Göleti</name>
+		<visibility>0</visibility>
+		<description><![CDATA[<img style="max-width:500px;" src="../assets/turizmfotolar/Ortaköy Balcı Göleti 72 01.jpg"><img style="max-width:500px;" src="../assets/turizmfotolar/Ortaköy Balcı Göleti 72 02.jpg"><img style="max-width:500px;" src="../assets/turizmfotolar/Ortaköy Balcı Göleti 72 03.jpg">]]></description>
+		<styleUrl>#mfailed</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#temp">
+				<SimpleData name="OBJECTID_1">79</SimpleData>
+				<SimpleData name="OID_">1</SimpleData>
+				<SimpleData name="Name">Balcı Göleti</SimpleData>
+				<SimpleData name="tip">Arazi Verileri</SimpleData>
+				<SimpleData name="utm_x">591687.0477</SimpleData>
+				<SimpleData name="utm_y">4284546.023</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>34.05446199950679,38.70479700026098,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Helvadere Göleti</name>
+		<visibility>0</visibility>
+		<description><![CDATA[<img style="max-width:500px;" src="../assets/turizmfotolar/Aksaray Helvadere Göleti 72 01.jpg"><img style="max-width:500px;" src="../assets/turizmfotolar/Aksaray Helvadere göleti 72 02.jpg"><img style="max-width:500px;" src="../assets/turizmfotolar/Aksaray Helvadere göleti küresel 72 01.jpg"><img style="max-width:500px;" src="../assets/turizmfotolar/Aksaray Helvadere Pelikan 72 01.jpg"><img style="max-width:500px;" src="../assets/turizmfotolar/Aksaray Helvadere Su kaplumbağası 72.jpg">]]></description>
+		<styleUrl>#mfailed</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#temp">
+				<SimpleData name="OBJECTID_1">90</SimpleData>
+				<SimpleData name="OID_">1</SimpleData>
+				<SimpleData name="Name">Helvadere Göleti</SimpleData>
+				<SimpleData name="tip">Arazi Verileri</SimpleData>
+				<SimpleData name="utm_x">606030.913</SimpleData>
+				<SimpleData name="utm_y">4228652.5123</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>34.21094600035531,38.19958299985707,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Mamusun Barajı</name>
+		<visibility>0</visibility>
+		<description><![CDATA[<img style="max-width:500px;" src="../assets/turizmfotolar/Aksaray Mamasun Barajı 72 01.jpg"><img style="max-width:500px;" src="../assets/turizmfotolar/Aksaray Mamasun Barajı 72 02.jpg"><img style="max-width:500px;" src="../assets/turizmfotolar/Aksaray Mamasun Barajı 72 03.jpg">]]></description>
+		<styleUrl>#mfailed</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#temp">
+				<SimpleData name="OBJECTID_1">97</SimpleData>
+				<SimpleData name="OID_">1</SimpleData>
+				<SimpleData name="Name">Mamasın Barajı</SimpleData>
+				<SimpleData name="tip">Arazi Verileri</SimpleData>
+				<SimpleData name="utm_x">598747.9004</SimpleData>
+				<SimpleData name="utm_y">4251074.1925</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>34.13091700010055,38.40244600010606,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Sarı Göl</name>
+		<visibility>0</visibility>
+		<description><![CDATA[<img style="max-width:500px;" src="../assets/turizmfotolar/Aksaray Sarıgöl 72 01.jpg"><img style="max-width:500px;" src="../assets/turizmfotolar/Aksaray Sarıgöl 72 02.jpg"><img style="max-width:500px;" src="../assets/turizmfotolar/Aksaray Sarıgöl 72 03.jpg">]]></description>
+		<styleUrl>#mfailed</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#temp">
+				<SimpleData name="OBJECTID_1">100</SimpleData>
+				<SimpleData name="OID_">1</SimpleData>
+				<SimpleData name="Name">Sarı Göl</SimpleData>
+				<SimpleData name="tip">Arazi Verileri</SimpleData>
+				<SimpleData name="utm_x">623509.8382</SimpleData>
+				<SimpleData name="utm_y">4236843.6302</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>34.41194200055205,38.27115500035934,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Sarıyahşi Göleti</name>
+		<visibility>0</visibility>
+		<description><![CDATA[<img style="max-width:500px;" src="../assets/turizmfotolar/Sarıyahşi Hirfanlı 72 01.jpg"><img style="max-width:500px;" src="../assets/turizmfotolar/Sarıyahşi Hirfanlı 72 02.jpg"><img style="max-width:500px;" src="../assets/turizmfotolar/Sarıyahşi Hirfanlı 72 03.jpg"><img style="max-width:500px;" src="../assets/turizmfotolar/Sarıyahşi Hirfanlı 300 02.jpg">]]></description>
+		<styleUrl>#mfailed</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#temp">
+				<SimpleData name="OBJECTID_1">101</SimpleData>
+				<SimpleData name="OID_">1</SimpleData>
+				<SimpleData name="Name">Sarıyahşi Göleti</SimpleData>
+				<SimpleData name="tip">Arazi Verileri</SimpleData>
+				<SimpleData name="utm_x">571785.5239</SimpleData>
+				<SimpleData name="utm_y">4313953.2936</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>33.82867400018485,38.97161599976759,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Ulu Camii</name>
+		<visibility>0</visibility>
+		<description><![CDATA[<img style="max-width:500px;" src="../assets/turizmfotolar/Merkez Ulu Camii 72 01.jpg">]]></description>
+		<styleUrl>#mfailed</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#temp">
+				<SimpleData name="OBJECTID_1">107</SimpleData>
+				<SimpleData name="OID_">1</SimpleData>
+				<SimpleData name="Name">Ulu Cami</SimpleData>
+				<SimpleData name="tip">Arazi Verileri</SimpleData>
+				<SimpleData name="utm_x">589897.2077</SimpleData>
+				<SimpleData name="utm_y">4247733.5364</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>34.02914300053903,38.37327799992965,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Kilise Camii</name>
+		<visibility>0</visibility>
+		<description><![CDATA[<img style="max-width:500px;" src="../assets/turizmfotolar/Güzelyurt Yüksek Kilise 72 01.jpg">]]></description>
+		<styleUrl>#mfailed</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#temp">
+				<SimpleData name="OBJECTID_1">108</SimpleData>
+				<SimpleData name="OID_">1</SimpleData>
+				<SimpleData name="Name">Kilise Camii</SimpleData>
+				<SimpleData name="tip">Arazi Verileri</SimpleData>
+				<SimpleData name="utm_x">619826.638</SimpleData>
+				<SimpleData name="utm_y">4237235.7467</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>34.36991400049607,38.27518699960437,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Çanlı Kilise</name>
+		<visibility>0</visibility>
+		<description><![CDATA[<img style="max-width:500px;" src="../assets/turizmfotolar/Aksaray Çanlı Kilise 72 01.jpg">]]></description>
+		<styleUrl>#mfailed</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#temp">
+				<SimpleData name="OBJECTID_1">109</SimpleData>
+				<SimpleData name="OID_">1</SimpleData>
+				<SimpleData name="Name">Çanlı Kilise</SimpleData>
+				<SimpleData name="tip">Arazi Verileri</SimpleData>
+				<SimpleData name="utm_x">599330.7544</SimpleData>
+				<SimpleData name="utm_y">4239610.8477</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>34.13597599996172,38.29908999981023,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Kızıl Kilise</name>
+		<visibility>0</visibility>
+		<description><![CDATA[<img style="max-width:500px;" src="../assets/turizmfotolar/Güzelyurt Kızıl Kilise 72 01.jpg"><img style="max-width:500px;" src="../assets/turizmfotolar/Güzelyurt Kızıl Kilise 72 02.jpg"><img style="max-width:500px;" src="../assets/turizmfotolar/Güzelyurt Kızıl Kilise 72 03.jpg">]]></description>
+		<styleUrl>#mfailed</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#temp">
+				<SimpleData name="OBJECTID_1">110</SimpleData>
+				<SimpleData name="OID_">1</SimpleData>
+				<SimpleData name="Name">Kızıl Kilise</SimpleData>
+				<SimpleData name="tip">Arazi Verileri</SimpleData>
+				<SimpleData name="utm_x">624923.9756</SimpleData>
+				<SimpleData name="utm_y">4235576.5077</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>34.42787999965345,38.25954299990278,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Yüksek Kilise</name>
+		<visibility>0</visibility>
+		<description><![CDATA[<img style="max-width:500px;" src="../assets/turizmfotolar/Güzelyurt Yüksek Kilise 72 01.jpg">]]></description>
+		<styleUrl>#mfailed</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#temp">
+				<SimpleData name="OBJECTID_1">112</SimpleData>
+				<SimpleData name="OID_">1</SimpleData>
+				<SimpleData name="Name">Yüksek Kilise</SimpleData>
+				<SimpleData name="tip">Arazi Verileri</SimpleData>
+				<SimpleData name="utm_x">618127.3375</SimpleData>
+				<SimpleData name="utm_y">4237051.041</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>34.35046100016619,38.27374800003234,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Taptuk Emre Türbesi</name>
+		<visibility>0</visibility>
+		<description><![CDATA[<img style="max-width:500px;" src="../assets/turizmfotolar/Ortaköy Taptuk Emre Türbesi 72 01.jpg"><img style="max-width:500px;" src="../assets/turizmfotolar/Ortaköy Taptuk Emre Türbesi 72 02.jpg"><img style="max-width:500px;" src="../assets/turizmfotolar/Ortaköy Taptuk Emre Türbesi 72 03.jpg"><img style="max-width:500px;" src="../assets/turizmfotolar/Ortaköy Taptuk Emre Türbesi 300 02.jpg">]]></description>
+		<styleUrl>#mfailed</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#temp">
+				<SimpleData name="OBJECTID_1">120</SimpleData>
+				<SimpleData name="OID_">1</SimpleData>
+				<SimpleData name="Name">Taptuk Emre Türbesi</SimpleData>
+				<SimpleData name="tip">Arazi Verileri</SimpleData>
+				<SimpleData name="utm_x">598346.7503</SimpleData>
+				<SimpleData name="utm_y">4268783.6863</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>34.12880999956468,38.5620599996383,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Roma Köprüsü</name>
+		<visibility>0</visibility>
+		<description><![CDATA[<img style="max-width:500px;" src="../assets/turizmfotolar/Aksaray Güzelyurt Tarihi Roma Köprüsü 72 01.jpg">]]></description>
+		<styleUrl>#mfailed</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#temp">
+				<SimpleData name="OBJECTID_1">123</SimpleData>
+				<SimpleData name="OID_">1</SimpleData>
+				<SimpleData name="Name">Roma Köprüsü</SimpleData>
+				<SimpleData name="tip">Arazi Verileri</SimpleData>
+				<SimpleData name="utm_x">617632.4254</SimpleData>
+				<SimpleData name="utm_y">4232512.7643</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>34.34405100006686,38.23292300038908,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Ağızkarahan</name>
+		<visibility>0</visibility>
+		<description><![CDATA[<img style="max-width:500px;" src="../assets/turizmfotolar/Aksaray Ağzıkarahan 72 01.jpg">]]></description>
+		<styleUrl>#mfailed</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#temp">
+				<SimpleData name="OBJECTID_1">124</SimpleData>
+				<SimpleData name="OID_">1</SimpleData>
+				<SimpleData name="Name">Ağzıkarahan</SimpleData>
+				<SimpleData name="tip">Arazi Verileri</SimpleData>
+				<SimpleData name="utm_x">599507.5942</SimpleData>
+				<SimpleData name="utm_y">4255840.6823</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>34.1402909994703,38.44531000020236,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Alayhan</name>
+		<visibility>0</visibility>
+		<description><![CDATA[<img style="max-width:500px;" src="../assets/turizmfotolar/Aksaray Alayhan 72 01.jpg">]]></description>
+		<styleUrl>#mfailed</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#temp">
+				<SimpleData name="OBJECTID_1">125</SimpleData>
+				<SimpleData name="OID_">1</SimpleData>
+				<SimpleData name="Name">Alayhan</SimpleData>
+				<SimpleData name="tip">Arazi Verileri</SimpleData>
+				<SimpleData name="utm_x">618088.1573</SimpleData>
+				<SimpleData name="utm_y">4264257.3676</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>34.35458000024574,38.51887599983346,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Sultanhanı</name>
+		<visibility>0</visibility>
+		<description><![CDATA[<img style="max-width:500px;" src="../assets/turizmfotolar/Sultanhanı 72 01.jpg"><img style="max-width:500px;" src="../assets/turizmfotolar/Sultanhanı 72 02.jpg">]]></description>
+		<styleUrl>#mfailed</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#temp">
+				<SimpleData name="OBJECTID_1">126</SimpleData>
+				<SimpleData name="OID_">1</SimpleData>
+				<SimpleData name="Name">Sultanhanı</SimpleData>
+				<SimpleData name="tip">Arazi Verileri</SimpleData>
+				<SimpleData name="utm_x">547876.7903</SimpleData>
+				<SimpleData name="utm_y">4233486.0015</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>33.54715700008551,38.24811500002477,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Şahinkalesi Göleti</name>
+		<visibility>0</visibility>
+		<description><![CDATA[<img style="max-width:500px;" src="../assets/turizmfotolar/Güzelyurt Şahinkayası Göleti 72 01.jpg">]]></description>
+		<styleUrl>#mfailed</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#temp">
+				<SimpleData name="OBJECTID_1">135</SimpleData>
+				<SimpleData name="OID_">1</SimpleData>
+				<SimpleData name="Name">Şahinkalesi Göleti-K</SimpleData>
+				<SimpleData name="tip">Arazi Verileri</SimpleData>
+				<SimpleData name="utm_x">624954.3915</SimpleData>
+				<SimpleData name="utm_y">4238858.6735</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>34.42880700018764,38.28911000012299,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Hasandağı Mesire Alanı</name>
+		<visibility>0</visibility>
+		<description><![CDATA[<img style="max-width:500px;" src="../assets/turizmfotolar/Hasan Dağı Bisiklet 72 01.jpg"><img style="max-width:500px;" src="../assets/turizmfotolar/Hasan Dağı Bitkiler 72 01.jpg"><img style="max-width:500px;" src="../assets/turizmfotolar/Hasan Dağı Dağcı 72 01.jpg"><img style="max-width:500px;" src="../assets/turizmfotolar/Hasan Dağı Kamp 72 01.jpg"><img style="max-width:500px;" src="../assets/turizmfotolar/Hasan Dağı Kayakçı 72 01.jpg"><img style="max-width:500px;" src="../assets/turizmfotolar/Hasan Dağı Take Off 72 01.jpg"><img style="max-width:500px;" src="../assets/turizmfotolar/Hasan Dağı Take Off 72 02.jpg"><img style="max-width:500px;" src="../assets/turizmfotolar/Hasan Dağı Take Off 72 03.jpg"><img style="max-width:500px;" src="../assets/turizmfotolar/Hasan Dağı Yılkı Atları 72 01.jpg"><img style="max-width:500px;" src="../assets/turizmfotolar/Hasan Dağı Zirve 72 01.jpg">]]></description>
+		<styleUrl>#mfailed</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#temp">
+				<SimpleData name="OBJECTID_1">141</SimpleData>
+				<SimpleData name="OID_">1</SimpleData>
+				<SimpleData name="Name">Hasan Dağı Mesire Alanı Kamp Alanı</SimpleData>
+				<SimpleData name="tip">Arazi Verileri</SimpleData>
+				<SimpleData name="utm_x">605505.0011</SimpleData>
+				<SimpleData name="utm_y">4225054.4483</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>34.16459486111111,38.16399775,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Taşpınar Dokuma Atölyesi</name>
+		<visibility>0</visibility>
+		<description><![CDATA[<img style="max-width:500px;" src="../assets/turizmfotolar/Aksaray Taşpınar Halısı 72 01.jpg"><img style="max-width:500px;" src="../assets/turizmfotolar/Aksaray Taşpınar Halısı 72 02.jpg"><img style="max-width:500px;" src="../assets/turizmfotolar/Aksaray Taşpınar Halısı 72 03.jpg"><img style="max-width:500px;" src="../assets/turizmfotolar/Aksaray Taşpınar Halısı 72 04.jpg">]]></description>
+		<styleUrl>#mfailed</styleUrl>
+		<ExtendedData>
+			<SchemaData schemaUrl="#temp">
+				<SimpleData name="OBJECTID_1">0</SimpleData>
+				<SimpleData name="OID_">0</SimpleData>
+				<SimpleData name="Name">Taşpınar Dokuma Atölyesi</SimpleData>
+				<SimpleData name="tip">Arazi Verisi</SimpleData>
+				<SimpleData name="utm_x">0</SimpleData>
+				<SimpleData name="utm_y">0</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Point>
+			<coordinates>34.02511111111116,38.17719444444449,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
