@@ -94,10 +94,19 @@ export class AppComponent implements OnInit{
         this.hikingFilter()
       }if (category  === 'Tarihi'){
         this.culturelFilter()
+      }if (category  === 'Park'){
+        this.parkFilter()
+      }if (category  === 'Yeme'){
+        this.yemeFilter()
+      }if (category  === 'Çeşme'){
+        this.cesmeFilter()
+      }if (category  === 'Kamp'){
+        this.kampFilter()
+      }if (category  === 'tamirat'){
+        this.tamiratFilter()
+      }if (category  === 'kurutma'){
+        this.kurutmaFilter()
       }
-      // if (category  === 'Yürüyüş'){
-
-      // }
     });
 
 
@@ -377,34 +386,6 @@ export class AppComponent implements OnInit{
     this.visibleSource.addFeatures(hikingRoute())
   }
 
-  culturelFilter(){
-    const hikingStyle = new Style({
-      stroke: new Stroke({
-        color: 'blue', // Yol rengi
-      }),
-    });
-
-    console.log('culturel')
-    const culturelRoute = () => {
-      const features = this.hiddenSource.getFeatures().filter((item) => {
-        return (
-          (item.get("geometry") instanceof Point )&&
-         (item.get('tip'))
-        );
-      });
-
-      features.forEach((feature) => {
-        feature.setStyle(hikingStyle);
-      });
-
-      return features;
-    }
-
-    this.visibleSource.clear();
-
-    this.visibleSource.addFeatures(culturelRoute())
-  }
-
   cycleFilter(){
     const cycleStyle = new Style({
       stroke: new Stroke({
@@ -431,6 +412,140 @@ export class AppComponent implements OnInit{
     this.visibleSource.clear();
 
     this.visibleSource.addFeatures(cycleRoute())
+  }
+
+  culturelFilter(){
+
+    console.log('culturel')
+    const culturelRoute = () => {
+      const features = this.hiddenSource.getFeatures().filter((item) => {
+        return (
+          (item.get("geometry") instanceof Point )&&
+         (item.get('tip'))
+        );
+      });
+
+      return features;
+    }
+
+    this.visibleSource.clear();
+
+    this.visibleSource.addFeatures(culturelRoute())
+  }
+
+  parkFilter(){
+
+    console.log('park')
+    const parkRoute = () => {
+      const features = this.hiddenSource.getFeatures().filter((item) => {
+        return (
+          (item.get("geometry") instanceof Point )&&
+          (item.get('Name') && item.get('Name').includes('TİP 1')|| item.get('Name').includes('TİP 2') || item.get('Name').includes('TİP 3')|| item.get('Name').includes('TİP 4'))
+        );
+      });
+
+      return features;
+    }
+
+    this.visibleSource.clear();
+
+    this.visibleSource.addFeatures(parkRoute())
+  }
+
+  kurutmaFilter(){
+
+    console.log('park')
+    const kurutmaRoute = () => {
+      const features = this.hiddenSource.getFeatures().filter((item) => {
+        return (
+          (item.get("geometry") instanceof Point )&&
+          (item.get('Name') && item.get('Name').includes('TİP 3')|| item.get('Name').includes('TİP 4'))
+        );
+      });
+
+      return features;
+    }
+
+    this.visibleSource.clear();
+
+    this.visibleSource.addFeatures(kurutmaRoute())
+  }
+
+  cesmeFilter(){
+
+    console.log('cesme')
+    const cesmeRoute = () => {
+      const features = this.hiddenSource.getFeatures().filter((item) => {
+        return (
+          (item.get("geometry") instanceof Point )&&
+          (item.get('Name') && item.get('Name').toLowerCase().includes('çeşme') || item.get('Name').includes('TİP 3') || item.get('Name').includes('TİP 4'))
+        );
+      });
+
+      return features;
+    }
+
+    this.visibleSource.clear();
+
+    this.visibleSource.addFeatures(cesmeRoute())
+  }
+
+  yemeFilter(){
+
+    console.log('yeme')
+    const yemeRoute = () => {
+      const features = this.hiddenSource.getFeatures().filter((item) => {
+        return (
+          (item.get("geometry") instanceof Point )&&
+          (item.get('ackl') && item.get('ackl').toLowerCase().includes('yemek'))
+        );
+      });
+
+      console.log(features)
+      return features;
+    }
+
+    this.visibleSource.clear();
+
+    this.visibleSource.addFeatures(yemeRoute())
+  }
+
+  kampFilter(){
+
+    console.log('kamp')
+    const kampRoute = () => {
+      const features = this.hiddenSource.getFeatures().filter((item) => {
+        return (
+          (item.get("geometry") instanceof Point )&&
+          (item.get('Name') && item.get('Name').toLowerCase().includes('kamp'))
+        );
+      });
+
+      return features;
+    }
+
+    this.visibleSource.clear();
+
+    this.visibleSource.addFeatures(kampRoute())
+  }
+
+  tamiratFilter(){
+
+    console.log('otobüs')
+    const tamiratRoute = () => {
+      const features = this.hiddenSource.getFeatures().filter((item) => {
+        return (
+          (item.get("geometry") instanceof Point )&&
+          (item.get('ackl') && item.get('ackl').includes('Dinlenme - Emanet - Duş - WC - Güvenlik - Bakım Alanları - Dolap - Mutfak - Yük Transfer Noktası'))
+        );
+      });
+
+      return features;
+    }
+
+    this.visibleSource.clear();
+
+    this.visibleSource.addFeatures(tamiratRoute())
   }
 
   onCategoryClicked(category: string) {
